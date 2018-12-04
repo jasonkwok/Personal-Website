@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 140px;
+  font-style: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 80px;
+  font-style: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+#scroll {
+  margin-top: 50px;
+}
+
+#intro {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#down {
+  margin-top: 130px;
+  font-weight: 400;
+}
+
+#down-arrow {
+  font-size: 40px;
+  margin-top: 6em;
+}
+
+.material-icons {
+  font-size: 100px;
+}
+
+#main {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#profile {
+  border-radius: 50%;
+  border: 8px solid black;
+  width: 300px;
+  margin-top: 50px;
+}
+
+#about {
+  text-align: center;
+}
+
+.line {
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#about-description {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+#signature {
+  width: 300px;
+  margin-top: 50px;
+}
+
+#experience {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 75px;
+  transition: opacity .5s ease-out 0s;
+}
+
+.logo:hover {
+  opacity: 0.3;
+  transition: opacity .5s ease-out 0s;
+}
+
+.exp-description {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.exp-description-description {
+  margin-top: 10px;
+  color: grey;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#ibm {
+  width: 200px;
+  transition: opacity .5s ease-out 0s;
+}
+
+.exp-pic {
+  width: 400px;
+}
+
+#tulip {
+  width: 400px;
+}
+
+#jankelley {
+  width: 120px;
+}
+
+#sms {
+  width: 280px;
+}
+
+.job-description {
+  font-size: 25px;
+}
+
+#contanct-description {
+  margin-top: 50px;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#end {
+  background-color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 150px;
+}
+
+#end-description {
+  color: grey;
+}
+
+.em-man-raising-hand {
+  font-size: 40px;
+  margin-top: 150px;
+}
+
+.em-pig {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.em-male-construction-worker {
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.em-email {
+  font-size: 45px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+#hello {
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.box {
+  display: inline-block;
+  border: 3px solid black;
+  padding: 15px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition-delay: 0.5s;
+  transition: background-color .5s ease-out 0s;
+  transition: color .5s ease-out 0s;
+}
+
+.box:hover {
+  background-color: black;
+  color: white;
+  transition: background-color .5s ease-out 0s;
+  transition: color .5s ease-out 0s;
+}
+
+.em-page_facing_up {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.em-wave {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#social-bar {
+  position: fixed;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+  z-index: 10;
+}
+
+.icon {
+  margin-top: 10px;
+}
+
+.icon a {
+  color: grey;
+  transition: color .5s ease-out 0s;
+}
+
+.icon a:hover {
+  cursor: pointer;
+  color: red;
+  transition: color .5s ease-out 0s;
+}
+
+.fa-file-alt {
+  margin-left: 2px;
+  margin-top: 4px;
+}

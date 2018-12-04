@@ -1,0 +1,135 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jason Kwok</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Secular+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+
+
+  $(document).ready(function(){
+    $("#scroll").click(function() {
+        $('html,body').animate({scrollTop: $(".em-pig").offset().top - $(".em-pig").height() -200},1200,"swing");
+    });
+});
+  </script>
+  <div id="social-bar">
+    <div class="icon"><a href="https://www.linkedin.com/in/jason-kwok-377a75132/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></div>
+    <div class="icon"><a href="https://github.com/jasonkwok" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
+    <div class="icon"><a href="mailto:jzskwok@eduwaterloo.ca" target="_top"><i class="fas fa-envelope"></i></a></div>
+    <div class="icon"><a href="assets/resume_jasonkwok.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i></a></div>
+  </div>
+  <div id="main" data-aos="fade-up"
+   data-aos-anchor-placement="top-bottom">
+    <i class="em em-man-raising-hand"></i>
+    <div class="text" id="intro">
+
+      Hello there! My name is
+    </div>
+    <div class="title" id="name">
+      Jason Kwok.
+    </div>
+    <p class="text box" id="scroll">Scroll down! <i class="em em-point_down"></i></p>
+  </div>
+  <div class="line"></div>
+  <div data-aos="fade-up" id="about">
+    <div class="subtitle" data-aos="fade-up"><i class="em em-pig"></i> About</div>
+    <img src="assets/profile.jpg" alt="Photo of Jason Kwok" id="profile" data-aos="fade-up">
+    <p id="about-description" class="text" data-aos="fade-up">
+        I am a computer engineering student who is passionate about design and engineering in the technology field.
+        I am currently in my third-year of an interesting, but tough engineering program at the <a href="https://uwaterloo.ca/electrical-computer-engineering/future-undergraduate-students/computer-engineering" target="_blank" rel="noopener noreferrer">University of Waterloo</a>.
+        I have already interned at three amazing companies which were great learning experiences and fufilling opportunities.
+      </br></br>
+        I am orignally from Toronto, but I currently live in Waterloo, Kitchener. And while I am not doing engineering things, I enjoy playing and watching all types of sports,
+        watch television shows and movies, and travelling to explore the unknown.
+      </br></br>
+        Thank you for stopping by. Best,
+      </br>
+      <img src="assets/signature.png" alt="Signature of Jason Kwok" id="signature">
+    </p>
+  </div>
+  <div class="line"></div>
+  <div id="experience">
+     <div class="subtitle" data-aos="fade-up"><i class="em em-male-construction-worker"></i>Experience</div>
+
+     <div data-aos="fade-up">
+       <a href="https://www.ibm.com/ca-en/marketplace/regulatory-compliance-management" target="_blank" rel="noopener noreferrer"><img src="assets/ibm.png" alt="IBM" class="logo" id="ibm"></a>
+       <div class="text exp-description"><span class="job-description">IBM - Software Developer</span></br> Watson Financial Regulatory Compliance team</div>
+       <p class="text exp-description-description">
+         The IBM Watson Regulatory Compliance is an AI-powered web application that helps businesses with the process of managing regulatory compliances.
+         I worked with other software developers the team lead, and QA to build new features and improve the existing product in agile enviornment.
+         The web app was a newly introduced application of IBM's Watson and was in the early stages of piloting for different clients.
+         <br></br>
+         <img src="assets/wrc-laptop.png" alt="IBM's Watson Regulatory Compliance program" class="exp-pic">
+       </p>
+     </div>
+
+     <div data-aos="fade-up">
+       <a href="https://tulip.com" target="_blank" rel="noopener noreferrer"><img src="assets/tulip.png" class="logo" alt="Tulip Retail" id="tulip"></a>
+       <div class="text exp-description"><span class="job-description">Tulip Retail - Full Stack Developer</span></br>Customer Relations Management applications team</div>
+       <p class="text exp-description-description">
+         Tulip Retail is a mobile platform that provides store associates with assisted selling, CRM and a mobile POS.
+         I worked in the CRM team that consisted of other software developers, the team lead, QA and product management to develop web views in
+         the Tulip mobile app.
+         The team worked in an agile enviornment and consistently released to their clients.
+         Tulip Retail client's included many brand-name retailers which included Michael Kors, Saks Fifth Avenue, Tory Burch and Kate Spade.
+         <br></br>
+         <img src="assets/tulip-mobile.png" alt="Tulip Retail's mobile app" class="exp-pic">
+       </p>
+     </div>
+
+     <div data-aos="fade-up">
+       <a href="https://jankelley.com" target="_blank" rel="noopener noreferrer"><img src="assets/jankelley.png" alt="Jan Kelley" class="logo" id="jankelley"></a>
+       <div class="text exp-description"><span class="job-description">Jan Kelley - Applications Developer</span></br>Prototype development at an idea incubator lab</div>
+       <p class="text exp-description-description">
+         The idea incubator is a problem-solving lean lab and a prototype development hub within a full-service marketing and communications agency.
+         I worked in a small cross-functional team to create prototyped projects specific to different clients.
+         We helped businesses create 'first-to-market' business solutions using a fast prototype development method, and translates a business opportunity and ideas into action.
+         <br></br>
+         <img src="assets/jkii-office.jpg" alt="Jan Kelley Idea Incubator office" class="exp-pic">
+       </p>
+     </div>
+
+     <div data-aos="fade-up">
+       <a href="https://spiritofmath.com" target="_blank" rel="noopener noreferrer"><img src="assets/sms.png" alt="Spirit of Math Schools" class="logo" id="sms"></a>
+       <div class="text exp-description"><span class="job-description">Spirit of Math Schools - Assistant Math Teacher</span></br>After-school math enrichment program</div>
+       <p class="text exp-description-description">
+         Spirit of Math Schools is an after-school enrichment program for for high-performaing and gifted students.
+         I was an assistant math teacher for these classes.
+         I helped explain difficult math concepts and communicate to the student's parents regarding their performance.
+       </p>
+     </div>
+  </div>
+  <div class="line"></div>
+  <div data-aos="fade-up" id="contact">
+    <div class="subtitle"><i class="em em-email"></i>Contact</div>
+    <p id="contanct-description" class="text">Whether for a potential project or you just want to say hi <i class="em em-wave"></i>, feel free to message me.</p>
+    <a class="text box" id="hello" href="mailto:jzskwok@eduwaterloo.ca" target="_top">Say hello!</a>
+    <p id="contanct-description" class="text">And if you wanted my resume -- here it is <a href="assets/resume_jasonkwok.pdf" class="em em-page_facing_up" target="_blank" rel="noopener noreferrer"></a></p>
+  </div>
+
+  <div id="end">
+    <div class="text" id="end-description">Designed and developed by Jason Kwok.</div>
+  <div>
+</body>
+</html>
