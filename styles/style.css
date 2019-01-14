@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.text {
+  line-height: 1.4;
+}
+
 .title {
   font-size: 140px;
   font-style: bold;
@@ -110,7 +114,7 @@
 }
 
 .exp-description-description {
-  margin-top: 10px;
+  margin-top: 25px;
   color: grey;
   margin-left: 300px;
   margin-right: 300px;
@@ -123,6 +127,7 @@
 
 .exp-pic {
   width: 400px;
+  margin-top: 10px;
 }
 
 #tulip {
@@ -160,12 +165,22 @@
   color: grey;
 }
 
+#end-description a {
+  text-decoration: none;
+  color: grey;
+}
+
+#end-description a:hover {
+  transition: color .5s ease-out 0s;
+  color: red;
+}
+
 .em-man-raising-hand {
   font-size: 40px;
   margin-top: 150px;
 }
 
-.em-pig {
+.em-male-student {
   font-size: 45px;
   margin-bottom: 10px;
 }
@@ -201,9 +216,11 @@
 }
 
 .box:hover {
-  background-color: black;
+  border: 3px solid red;
+  background-color: red;
   color: white;
   transition: background-color .5s ease-out 0s;
+  transition: border .5s ease-out 0s;
   transition: color .5s ease-out 0s;
 }
 
@@ -225,7 +242,7 @@ a {
 
 #social-bar {
   position: fixed;
-  font-size: 20px;
+  font-size: 27px;
   margin-left: 15px;
   margin-top: 15px;
   z-index: 10;
@@ -237,7 +254,6 @@ a {
 
 .icon a {
   color: grey;
-  transition: color .5s ease-out 0s;
 }
 
 .icon a:hover {
