@@ -115,7 +115,7 @@
 
 .exp-description-description {
   margin-top: 25px;
-  color: DimGrey;
+  color: black;
   margin-left: 300px;
   margin-right: 300px;
 }
@@ -162,12 +162,12 @@
 }
 
 #end-description {
-  color: DimGrey;
+  color: grey;
 }
 
 #end-description a {
   text-decoration: none;
-  color: DimGrey;
+  color: grey;
 }
 
 #end-description a:hover {
@@ -253,7 +253,7 @@ a {
 }
 
 .icon a {
-  color: DimGrey;
+  color: grey;
 }
 
 .icon a:hover {
