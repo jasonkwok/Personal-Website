@@ -125,6 +125,11 @@
   transition: opacity .5s ease-out 0s;
 }
 
+#nextroll {
+  width: 200px;
+  transition: opacity .5s ease-out 0s;
+}
+
 .exp-pic {
   width: 400px;
   margin-top: 10px;
